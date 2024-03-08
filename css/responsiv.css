@@ -1,0 +1,56 @@
+@media only screen and (max-width: 768px) {
+    .header{
+        height: 150vh;
+        background-size: 100% 120%;
+    }
+    .navbar__nav a{
+display: none;
+ }  
+ .navbar i{
+    display: block;
+ }
+ .banner{
+ padding-top: 1.6rem;
+ }
+ .banner__contact{
+    grid-template-columns: 100%;
+ }
+ .banner h1{
+    font-size: 1.6rem;
+    line-height: 43px;
+ }
+ .banner img{
+    width: 100%;
+ }
+ .contact ,.contact2,.contact4 {
+grid-template-columns: 1fr;
+ }
+ .Testimonial{
+    height: 110vh;
+ }
+ .testi__contact{
+    grid-template-columns: 1fr;
+ }
+ .testi__contact img{
+    width: 100%;
+    margin-bottom: 1rem;
+   
+ }
+ .contact__content{
+    grid-template-columns: 1fr;
+ }
+ .contact__content input  , textarea{
+    width: 50%;
+ }
+ .footer{
+   margin-top: 30rem;
+ }
+ .footer__content{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+
+ }
+ .footer__item{
+   margin-top: 2rem;
+ }
+}

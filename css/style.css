@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+}
+:root{
+    --lato: 'Lato', sans-serif;
+    --lora: 'Lora', serif;
+    --mon: 'Montserrat', sans-serif;
+}
+.container{
+    max-width: 86%;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    height: 130vh;
+    background-image: url(/img/hero-bg.png);
+    background-size: 100%  100%;
+}
+.navigationa{
+    width: 100%;
+    height: 9vh;
+}
+.navbar{
+    height: 9vh;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    font-weight: bold; 
+}
+.nav__logo a{
+    font-size: 2rem;
+}
+.navbar__nav a{
+font-size: 1.2rem;
+font-family: var(--lora);
+margin-right: 1.4rem;
+}
+.navbar i{
+    display: none;
+}
+.banner{
+width: 100%;
+padding-top: 7rem;
+}
+.banner__contact{
+    display: grid;
+    grid-template-columns: repeat(2,1fr );
+    align-items: center;
+    gap: 3rem   ;
+}
+.banner h1{
+    font-size: 3.2rem;
+    font-family: var(--mon);
+    line-height: 80px;
+    width: 90%;
+}
+.banner p{
+    color: black;
+    font-family: var(--mon);
+    font-size: 0.9rem;
+font-weight: 600;
+line-height: 23px;
+margin-bottom: 1rem;
+}
+.banner button{
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    padding: 9px 17px;
+    background-color: white;
+    border: 0;
+    transition: 0.5s linear;
+    font-size: 1.1rem;
+}
+.banner button:hover{
+    background-color: rgb(235, 202, 12);
+    color: white;
+}
+.everything{
+    width: 100%;
+}
+.contact ,.contact2,.contact4 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center; 
+    text-align: right;
+    gap: 3rem   ;
+}
+.everything h2{
+    color: black;
+    font-size: 2rem;
+}
+.everything p{
+    color: black;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    opacity: 0.7;
+}
+.everything  button{
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    padding: 9px 17px;
+    background-color: rgb(240, 234, 234);
+    border: 0;
+    font-size: 1.1rem;
+}
+.everything img{
+    width: 100% ;
+}
+.contact2 , .contact4{
+    text-align: left;
+} 
+.Testimonial{
+    width: 100%;
+    height: 50vh;
+    padding-top: 3rem;
+}
+.Testimonial .title h2{
+    text-align: center;
+
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+}
+.testi__contact{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+.testi__contact .item h2{
+font-size: 1.7rem;
+color: black;
+}
+.testi__contact p{
+    color: black;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    line-height: 25px;
+}
+.contact{
+    width: 100%;
+    height: 84vh;
+}
+.contact__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contact__content input  , textarea{
+   width: 40rem;
+   height: 5vh;
+   font-size: 1.3rem;
+   border: 0;
+   border-bottom: 1px solid black  ;
+   outline: 0;
+   color: black;
+   text-indent: 10px;
+   margin-top: 1.8rem;
+}
+.contact__content h2{
+    color: black;
+    text-align: left;
+    font-size: 1.7rem;
+}
+.contact__content button{
+    width: 40rem;
+    height: 7vh;
+    border-radius: 20px;
+    border: 0;
+    font-size: 1.2rem;
+    color: black;
+    margin-top: 1rem;
+}
+.contact__content img {
+    width: 100%;
+    height: auto;
+  }
+  .footer{
+background-color:black ;
+  }
+  .footer .title{
+    text-align: center;
+    padding-top: 3rem;
+font-size:2rem ;
+  }
+  .footer__content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  }
+  .footer h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .footer p{
+    width: 88%;
+  }
+  span{
+    font-size: 1.2rem;
+  }
+  .footer input{
+display: block;width:70%;
+height: 5vh;
+border-radius: 10px;
+text-indent: 10px;
+  }
+  .footer button{
+    background-color: darkgoldenrod;
+    padding: 10px 50px ;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+  }
+  .footer i{
+    padding: 10px 10px ;
+    border-radius: 100%;
+    background-color: white;
+    color: black;
+    margin-left: 1rem;
+       
+  }
+  .social__media{
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+    padding-top: 2rem;
+    border: 0;
+    border-top: 1px solid #ffffff;
+    padding-bottom: 20px;
+  }
+
+  .copy{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: chocolate;
+  }
